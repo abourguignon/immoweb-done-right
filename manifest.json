@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+
+  "name": "Immoweb Done Right",
+  "description": "De-obfuscate addresses so you can copy-paste them easily, and provide a direct link to Google maps.",
+  "version": "0.1",
+  "author": "Antonin Bourguignon",
+
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title": "Immoweb Done Right is running on this page"
+  },
+
+  "content_scripts": [
+  {
+    "js": [
+      "jquery.min.js",
+      "content.js"
+    ],
+    "matches": [
+      "http://www.immoweb.be/*/Buy.Estate.cfm*",
+      "https://www.immoweb.be/*/Buy.Estate.cfm*",
+      "http://www.immoweb.be/*/Rent.Estate.cfm*",
+      "https://www.immoweb.be/*/Rent.Estate.cfm*"
+    ]
+  }],
+
+  "permissions": [
+    "activeTab"
+  ]
+}
