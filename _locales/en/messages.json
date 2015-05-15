@@ -1,0 +1,14 @@
+{
+  "manifest_name": {
+    "message": "Immoweb Done Right"
+  },
+  "manifest_description": {
+    "message": "De-obfuscate addresses so you can copy-paste them easily, and provide a direct link to Google maps."
+  },
+  "manifest_default_title": {
+    "message": "Immoweb Done Right is running on this page"
+  },
+  "view_it_on_gmaps": {
+    "message": "View it on Google maps"
+  }
+}

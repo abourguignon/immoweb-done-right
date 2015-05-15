@@ -37,7 +37,7 @@ $.each(address, function(k, v){
 
 var a = $('<a>', {
     'href': 'http://maps.google.com/?q=' + url,
-    'title': 'Click to see it on Google maps',
+    'title': chrome.i18n.getMessage('view_it_on_gmaps'),
     'html': text
 });
 
