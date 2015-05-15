@@ -3,7 +3,7 @@
 
   "name": "Immoweb Done Right",
   "description": "De-obfuscate addresses so you can copy-paste them easily, and provide a direct link to Google maps.",
-  "version": "0.3",
+  "version": "0.4",
   "author": "Antonin Bourguignon",
   "icons": {
     "16": "images/icon16.png",
