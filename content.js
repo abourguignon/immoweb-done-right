@@ -13,7 +13,7 @@
 chrome.extension.sendMessage({type:'showPageAction'});
 
 // Setup
-path_to_location_el = '#body #column-central ul.locationinfo'
+path_to_location_el = '#body #column-central table ul.locationinfo:last'
 direct_link = true
 
 // Fetch address
