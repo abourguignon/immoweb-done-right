@@ -4,7 +4,7 @@
 
   "name": "__MSG_manifest_name__",
   "description": "__MSG_manifest_description__",
-  "version": "0.5",
+  "version": "0.6",
   "author": "Antonin Bourguignon",
   "icons": {
     "16": "images/icon16.png",
@@ -32,14 +32,8 @@
       "content.js"
     ],
     "matches": [
-      "http://www.immoweb.be/*/Buy.Estate.cfm*",
-      "https://www.immoweb.be/*/Buy.Estate.cfm*",
-      "http://www.immoweb.be/*/Rent.Estate.cfm*",
-      "https://www.immoweb.be/*/Rent.Estate.cfm*",
-      "http://www.immoweb.be/*/buy.estate.cfm*",
-      "https://www.immoweb.be/*/buy.estate.cfm*",
-      "http://www.immoweb.be/*/rent.estate.cfm*",
-      "https://www.immoweb.be/*/rent.estate.cfm*"
+      "*://www.immoweb.be/*/*.Estate.cfm*",
+      "*://www.immoweb.be/*/*.estate.cfm*"
     ]
   }],
 
