@@ -32,8 +32,7 @@
       "content.js"
     ],
     "matches": [
-      "*://www.immoweb.be/*/*.Estate.cfm*",
-      "*://www.immoweb.be/*/*.estate.cfm*"
+      "*://www.immoweb.be/*"
     ]
   }],
 
